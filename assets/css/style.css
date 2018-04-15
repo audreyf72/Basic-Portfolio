@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+color: #777777;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 18px;
+background-image:url('../images/brickwall_@2X.png');
+}
+
+#header{
+    position: absolute;
+    background: #ffffff;
+    height: 90px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    margin: 0px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.top-nav{
+    position: relative;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav{
+    position: absolute;
+    right: 0px;
+    margin-top: 35px;
+    height: 45px;
+    text-align: right;
+    background-color: none;
+    color: whitesmoke;
+}
+
+h1{
+    padding: 25px;
+    position: absolute;
+    margin-top: 0;
+    left: 0px;
+    background: #4aaaa5;
+    height: 88px;
+    width: 450px;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+a{
+    color: #adadad;
+    font-size: 18px;
+    font-style: normal;
+    padding: 20px;
+    padding-top: 35px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #4aaaa5;
+}
+
+.container{
+    padding: 30px;
+    background: #ffffff;
+    width: 960px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #4aaaa5;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#hzrule{
+    background-color: #d4d4d4;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+#profilepic{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 210px;
+}
+
+p{
+line-height: 34px;
+font-style: normal;
+}
+
+#print{
+    position: relative;
+    background-image:url('../images/printpic.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    float: left;
+}
+
+#print-title{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 18px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#print:hover{
+    opacity: 0.4;
+}
+
+#web{
+    position: relative;
+    background-image:url('../images/webdesign.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    float: left;
+}
+
+#web:hover{
+    opacity: 0.4;
+}
+
+#web-title{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 18px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#apps{
+    clear: both;
+    position: relative;
+    background-image:url('../images/appphone.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    float: left;
+}
+
+#apps-title{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 18px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#apps:hover{
+    opacity: 0.4;
+}
+
+#game{
+    position: relative;
+    background-image:url('../images/gamepic.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    float: left;
+}
+
+#game-title{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 18px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#game:hover{
+    opacity: 0.4;
+}
+
+#misc{
+    clear: both;
+    position: relative;
+    background-image:url('../images/miscpic.jpg');
+    width: 275px;
+    height: 205px;
+    margin: 20px;
+    float: left;
+}
+
+#misc-title{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 18px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#misc:hover{
+    opacity: 0.4;
+}
+
+input {
+    width: 100%;
+    padding: 7px 20px;
+    margin: 5px 0px 15px 0px;
+    box-sizing: border-box;
+    color: #777777;
+    font-size: 12pt;
+}
+
+textarea {
+    width: 100%;
+    padding: 7px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-color: #cccccc;
+    font-size: 12pt;
+}
+
+input[type=button]{
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    width: 110px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background-color: #cccccc;
+}
+
+.footer{
+    background-color: #666666;
+    padding-top: 40px;
+    position: fixed;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    margin: 0px;
+    left: 0px;
+    bottom: 0px;
+    border-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
