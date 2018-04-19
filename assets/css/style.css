@@ -46,7 +46,7 @@ h1{
 
 ul {
     list-style-type: none;
-    color: #adadad;
+    color: #efefef;
     display: block;
     margin: 0px;
     overflow: hidden;
@@ -92,7 +92,7 @@ h2{
 }
 
 #hzrule{
-    background-color: #cccccc;
+    background-color: #dddddd;
     height: 3px;
     margin-bottom: 20px;
 }
